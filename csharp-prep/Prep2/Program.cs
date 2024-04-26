@@ -14,15 +14,15 @@ class Program
         }
         else if (percent >= 80)
         {
-            Console.WriteLine("Your Grade is an B");
+            Console.WriteLine("Your Grade is a B");
         }
         else if (percent >= 70)
         {
-            Console.WriteLine("Your Grade is an C");
+            Console.WriteLine("Your Grade is a C");
         }
         else if (percent >= 60)
         {
-            Console.WriteLine("Your Grade is an D");
+            Console.WriteLine("You got a D");
         }
         else if (percent < 60)
         {
@@ -32,6 +32,15 @@ class Program
         {
             Console.WriteLine("That is not a possible answer....");
         }
+        if (percent >= 70)
+        {
+            Console.WriteLine("Great Job! You Passed!");
+        }
+        else if (percent < 70)
+        {
+            Console.WriteLine("You've Failed. Try Again");
+        }
+        
     }
 
 }
